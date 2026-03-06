@@ -1,4 +1,4 @@
-#  Mini Core Bancario - Billetera Virtual
+#  Mini Core Bancario - Billetera Digital
 
 Proyecto personal
 Es una API REST de una billetera digital construida con Java y Spring Boot.
