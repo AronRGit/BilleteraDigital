@@ -1,0 +1,80 @@
+# ==========================================
+# .gitignore — Mini Core Bancario
+# ==========================================
+
+# ── Compilado Java ─────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# ── Maven ──────────────────────────────────
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# ── IDEs ───────────────────────────────────
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbactions.xml
+nb-configuration.xml
+
+# ── Sistema Operativo ──────────────────────
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V8
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+
+# ── Spring Boot ────────────────────────────
+spring-shell.log
+
+# ── Logs ───────────────────────────────────
+*.log
+logs/
+log/
+
+# ── Variables de entorno ───────────────────
+# NUNCA subir credenciales reales al repositorio
+.env
+.env.local
+.env.production
+*.env
+
+# ── Docker ─────────────────────────────────
+# Los volúmenes de Docker no se versionan
+docker-volumes/
+
+# ── Cobertura de tests ─────────────────────
+*.exec
+jacoco.exec

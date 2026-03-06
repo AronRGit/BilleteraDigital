@@ -1,0 +1,12 @@
+package com.portafolio.billetera.dto.response;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+public record TransaccionResponse(
+        Long id,
+        String tipo,
+        BigDecimal monto,
+        String descripcion,
+        LocalDateTime fecha
+) {}
